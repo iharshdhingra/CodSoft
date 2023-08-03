@@ -1,0 +1,15 @@
+#############################-----Word Counter-----#############################
+
+The program starts by prompting the user to choose between entering text manually or providing a file path.
+
+If the user chooses to enter text manually, the program reads the input text and stores it in the text variable. If the user chooses to provide a file, the program reads the content of the file and stores it in the text variable.
+
+The text is split into an array of words using a regular expression that considers spaces and common punctuation marks as delimiters.
+
+A loop iterates through the array of words, incrementing the wordCount variable for each non-empty word encountered.
+
+The total count of words is displayed to the user.
+
+This program provides a simple word counting functionality. To further enhance the project, you can consider implementing features like
+ignoring common words (stop words), providing statistics on unique words or word frequency, handling empty inputs or file errors, and 
+creating a graphical user interface (GUI) for a more user-friendly experience.
