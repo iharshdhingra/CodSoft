@@ -1,0 +1,15 @@
+#############################-----Number Game-----#############################
+The Random class is used to generate a random number within the specified range.
+
+The game starts with a loop that allows the user to play multiple rounds. The loop continues as long as the user wants to play again.
+
+In each round, a random target number is generated. The user is prompted to input their guess.
+
+The user's guess is compared with the target number, and appropriate feedback is given. If the guess is correct, the user's score is 
+incremented, and the loop breaks.
+
+The user has a limited number of attempts to guess the correct number, and the remaining attempts are displayed after each incorrect guess.
+
+After each round, the user is asked if they want to play again. The loop continues or terminates based on their response.
+
+At the end of the game, the user's final score is displayed based on the number of rounds won.
