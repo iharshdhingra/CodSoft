@@ -1,0 +1,10 @@
+#############################-----ATM Interface-----#############################
+The BankAccount class represents the user's bank account and contains methods to check the balance, deposit money, and withdraw money.
+
+The ATM class represents the ATM machine and provides a user interface to interact with the bank account. The run() method runs a loop displaying the available options to the user and executing the chosen functionality.
+
+The main method initializes the ATM with an initial balance and starts the ATM by calling atm.run().
+
+The ATM provides options to check the balance, deposit money, and withdraw money. It validates user input to ensure it is within acceptable limits (e.g., sufficient balance for withdrawals) and displays appropriate messages to the user based on the success or failure of their transactions.
+
+The user can exit the ATM by choosing option 4.
